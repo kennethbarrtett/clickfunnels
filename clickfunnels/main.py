@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.redirect("https://www.clickfunnels.com", True)
+        self.redirect("https://clickfunnels.com?cf_affiliate_id=1223070&affiliate_id=1223070&aff_sub=&aff_sub2=&nopopup=false&noautoplay=false&cookiepreview=false", True)
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
